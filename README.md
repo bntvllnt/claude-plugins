@@ -12,25 +12,32 @@
 
 ## Plugins
 
-| Plugin | Description | Install |
+| Plugin | Description | Version |
 |--------|-------------|---------|
-| [codebase-visualizer](plugins/codebase-visualizer/) | 15 MCP tools for TypeScript codebase intelligence — architecture, metrics, search, impact analysis | `claude mcp add ...` (see below) |
+| [codebase-visualizer](plugins/codebase-visualizer/) | 15 MCP tools for TypeScript codebase intelligence | 1.1.0 |
 
 ## Install
 
-### One-liner (recommended)
+### Marketplace (recommended)
+
+```bash
+# Add the marketplace (once)
+/plugin marketplace add bntvllnt/claude-plugins
+
+# Install a plugin
+/plugin install codebase-visualizer@bntvllnt-claude-plugins
+```
+
+Update to latest:
+
+```bash
+/plugin marketplace update bntvllnt-claude-plugins
+```
+
+### One-liner (no marketplace)
 
 ```bash
 claude mcp add -s user -t stdio codebase-visualizer -- npx -y codebase-visualizer@latest . --mcp
-```
-
-Available in all projects immediately. Verify with `/mcp` inside Claude Code.
-
-### Plugin directory
-
-```bash
-git clone https://github.com/bntvllnt/claude-plugins.git
-claude --plugin-dir ./claude-plugins/plugins/codebase-visualizer
 ```
 
 ### Manual (.mcp.json)
