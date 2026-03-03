@@ -6,8 +6,8 @@
   },
   "plugins": [
     {
-      "name": "codebase-visualizer",
-      "source": "./plugins/codebase-visualizer",
+      "name": "codebase-intelligence",
+      "source": "./plugins/codebase-intelligence",
       "description": "15 MCP tools for TypeScript codebase intelligence — architecture, metrics, search, impact analysis",
       "version": "1.1.0"
     }

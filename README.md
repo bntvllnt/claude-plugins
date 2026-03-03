@@ -14,7 +14,7 @@
 
 | Plugin | Description | Version |
 |--------|-------------|---------|
-| [codebase-visualizer](plugins/codebase-visualizer/) | 15 MCP tools for TypeScript codebase intelligence | 1.1.0 |
+| [codebase-intelligence](plugins/codebase-intelligence/) | 15 MCP tools for TypeScript codebase intelligence | 1.1.0 |
 
 ## Install
 
@@ -25,7 +25,7 @@
 /plugin marketplace add bntvllnt/claude-plugins
 
 # Install a plugin
-/plugin install codebase-visualizer@bntvllnt-claude-plugins
+/plugin install codebase-intelligence@bntvllnt-claude-plugins
 ```
 
 Update to latest:
@@ -37,7 +37,7 @@ Update to latest:
 ### One-liner (no marketplace)
 
 ```bash
-claude mcp add -s user -t stdio codebase-visualizer -- npx -y codebase-visualizer@latest . --mcp
+claude mcp add -s user -t stdio codebase-intelligence -- npx -y codebase-intelligence@latest . --mcp
 ```
 
 ### Manual (.mcp.json)
@@ -47,10 +47,10 @@ Add to your project's `.mcp.json`:
 ```json
 {
   "mcpServers": {
-    "codebase-visualizer": {
+    "codebase-intelligence": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "codebase-visualizer@latest", ".", "--mcp"],
+      "args": ["-y", "codebase-intelligence@latest", ".", "--mcp"],
       "env": {}
     }
   }
@@ -61,7 +61,7 @@ Replace `.` with your source directory (e.g., `./src`, `./packages`).
 
 ## Available MCP Tools
 
-codebase-visualizer provides 15 tools for code intelligence:
+codebase-intelligence provides 15 tools for code intelligence:
 
 | Tool | Purpose |
 |------|---------|
@@ -91,7 +91,7 @@ plugins/
     .mcp.json           <- MCP server config
 ```
 
-See [plugins/codebase-visualizer/](plugins/codebase-visualizer/) for a working example.
+See [plugins/codebase-intelligence/](plugins/codebase-intelligence/) for a working example.
 
 ## License
 

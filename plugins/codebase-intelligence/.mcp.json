@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "codebase-intelligence": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "codebase-intelligence@latest", ".", "--mcp"],
+      "env": {}
+    }
+  }
+}
