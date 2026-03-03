@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "codebase-visualizer": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "codebase-visualizer@latest", ".", "--mcp"],
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "bntvllnt Claude Code Plugins",
+  "description": "MCP servers, skills, and agents for AI-assisted development",
+  "author": "bntvllnt",
+  "sources": [
+    {
+      "type": "local",
+      "directory": "plugins",
+      "name": "codebase-visualizer"
+    }
+  ]
+}

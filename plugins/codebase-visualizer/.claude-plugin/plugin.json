@@ -1,0 +1,13 @@
+{
+  "name": "codebase-visualizer",
+  "description": "3D interactive maps of TypeScript codebases — 15 MCP tools for code intelligence, architecture analysis, and refactoring support",
+  "version": "1.1.0",
+  "author": {
+    "name": "bntvllnt",
+    "url": "https://bntvllnt.com"
+  },
+  "repository": "https://github.com/bntvllnt/codebase-visualizer",
+  "homepage": "https://github.com/bntvllnt/codebase-visualizer",
+  "license": "MIT",
+  "keywords": ["mcp", "codebase", "typescript", "architecture", "visualization", "analysis"]
+}
