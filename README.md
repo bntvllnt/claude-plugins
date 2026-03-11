@@ -14,7 +14,7 @@
 
 | Plugin | Description | Version |
 |--------|-------------|---------|
-| [codebase-intelligence](plugins/codebase-intelligence/) | 15 MCP tools for TypeScript codebase intelligence | 1.1.0 |
+| [codebase-intelligence](plugins/codebase-intelligence/) | 15 MCP tools for TypeScript codebase intelligence | 2.2.0 |
 
 ## Install
 
