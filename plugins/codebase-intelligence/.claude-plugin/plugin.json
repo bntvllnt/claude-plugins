@@ -1,7 +1,7 @@
 {
   "name": "codebase-intelligence",
-  "description": "3D interactive maps of TypeScript codebases — 15 MCP tools for code intelligence, architecture analysis, and refactoring support",
-  "version": "1.1.0",
+  "description": "15 MCP tools for TypeScript codebase intelligence — architecture analysis, dependency graphs, metrics, and refactoring support",
+  "version": "2.2.0",
   "author": {
     "name": "bntvllnt",
     "url": "https://bntvllnt.com"
